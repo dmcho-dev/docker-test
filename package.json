@@ -1,0 +1,32 @@
+{
+  "name": "docker-sample",
+  "version": "1.0.0",
+  "description": "Docker sample for my pilot project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcho-dev/docker-test.git"
+  },
+  "keywords": [
+    "docker",
+    "test",
+    "sample",
+    "express"
+  ],
+  "author": "dmcho-dev <dmcho.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcho-dev/docker-test/issues"
+  },
+  "homepage": "https://github.com/dmcho-dev/docker-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
